@@ -15,7 +15,15 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "3H Blossom Home Daycare | Licensed Home Daycare in Saskatoon",
   description:
-    "Licensed home daycare in Kensington, Saskatoon. Safe, loving, and nurturing childcare for infants, toddlers, preschoolers, and school-age children.",
+    "Licensed home daycare in Kensington, Saskatoon. Caring childcare for infants, toddlers, preschoolers, and school-age children.",
+  keywords: [
+    "daycare Saskatoon",
+    "licensed daycare Saskatoon",
+    "Kensington daycare",
+    "home daycare Saskatoon",
+    "childcare Saskatoon",
+    "3H Blossom"
+  ],
  icons: {
   icon: "/logo.png",
   shortcut: "/logo.png",
