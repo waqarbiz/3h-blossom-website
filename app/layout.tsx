@@ -16,9 +16,11 @@ export const metadata = {
   title: "3H Blossom Home Daycare | Licensed Home Daycare in Saskatoon",
   description:
     "Licensed home daycare in Kensington, Saskatoon. Safe, loving, and nurturing childcare for infants, toddlers, preschoolers, and school-age children.",
-  icons: {
-    icon: "/logo.png",
-  },
+ icons: {
+  icon: "/logo.png",
+  shortcut: "/logo.png",
+  apple: "/logo.png",
+},
 };
 
 export default function RootLayout({
