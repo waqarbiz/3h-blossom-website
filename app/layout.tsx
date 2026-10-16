@@ -12,7 +12,9 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata = {
+export const metadata: Metadata = {
+  metadataBase: new URL("https://www.3hblossom.ca"),
+  alternates: { canonical: "/" },
   title: "3H Blossom Home Daycare | Licensed Home Daycare in Saskatoon",
   description:
     "Licensed home daycare in Kensington, Saskatoon. Caring childcare for infants, toddlers, preschoolers, and school-age children.",
