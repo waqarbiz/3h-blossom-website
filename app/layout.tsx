@@ -14,23 +14,22 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.3hblossom.ca"),
-  alternates: { canonical: "/" },
-  title: "3H Blossom Home Daycare | Licensed Home Daycare in Saskatoon",
+
+  alternates: {
+    canonical: "/",
+  },
+
+  title:
+    "3H Blossom Daycare | Licensed Home Daycare in Kensington, Saskatoon",
+
   description:
-    "Licensed home daycare in Kensington, Saskatoon. Caring childcare for infants, toddlers, preschoolers, and school-age children.",
-  keywords: [
-    "daycare Saskatoon",
-    "licensed daycare Saskatoon",
-    "Kensington daycare",
-    "home daycare Saskatoon",
-    "childcare Saskatoon",
-    "3H Blossom"
-  ],
- icons: {
-  icon: "/logo.png",
-  shortcut: "/logo.png",
-  apple: "/logo.png",
-},
+    "3H Blossom is a licensed home daycare in Kensington, Saskatoon, offering loving childcare for infants, toddlers, preschoolers, and school-age children.",
+
+  icons: {
+    icon: "/logo.png",
+    shortcut: "/logo.png",
+    apple: "/logo.png",
+  },
 };
 
 export default function RootLayout({

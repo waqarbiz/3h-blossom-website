@@ -75,13 +75,23 @@ export default function Home() {
      
      <section className="bg-[#fff8df] px-4 py-14">
   <div className="mx-auto max-w-6xl">
+
+    <p className="mx-auto mb-10 max-w-4xl text-center text-lg leading-relaxed text-slate-700 md:text-xl">
+  3h Blossom Daycare is a licensed home daycare in Kensington, Saskatoon.
+  It is conveniently located near Confederation Park, Dundonald,
+  Pacific Heights, Massey Place, and Westview.
+   <br />
+  We warmly welcome families from all across Saskatoon!
+</p>
+
     <h2 className="text-center text-4xl font-black text-purple-700 md:text-5xl">
       Children of All Ages Are Welcome!
     </h2>
 
     <p className="mt-4 text-center text-lg text-slate-600 md:text-xl">
-      Providing loving, age-appropriate care and activities for every stage of childhood.
-    </p>
+  Loving, age-appropriate care for infants, toddlers,
+  preschoolers, and school-age children.
+</p>
 
     <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
 
@@ -259,8 +269,14 @@ export default function Home() {
 <section className="bg-white px-4 py-16">
   <div className="mx-auto max-w-6xl">
     <h2 className="text-center text-4xl font-black text-pink-600 md:text-5xl">
-      Why Parents Choose 3H Blossom
-    </h2>
+  Why Parents Choose 3H Blossom
+</h2>
+
+<p className="mx-auto mt-4 max-w-4xl text-center text-lg leading-relaxed text-slate-600 md:text-xl">
+  At 3h Blossom Daycare, we provide a safe, nurturing, and licensed
+  home childcare environment where every child receives personal
+  attention and opportunities to learn, play, and grow.
+</p>
 
     <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
       {[
@@ -325,13 +341,10 @@ export default function Home() {
     </h2>
 
     <p className="mt-6 text-xl text-slate-700 md:text-2xl">
-      We are currently accepting new enrollments for children in a
-      safe, loving, and nurturing home daycare environment.
-    </p>
-
-    <p className="mt-4 text-lg font-semibold text-purple-700 md:text-xl">
-      Schedule a tour and discover why families choose 3H Blossom Home Daycare.
-    </p>
+  If you are looking for a licensed home daycare in Kensington, Saskatoon,
+  then 3h Blossom Daycare is currently welcoming new enrollments.
+  Contact us to learn about availability and schedule a daycare tour!
+</p>
 
     <div className="mt-10 flex flex-col justify-center gap-4 sm:flex-row">
 
@@ -362,12 +375,12 @@ export default function Home() {
     </h3>
 
     <p className="mt-2 text-slate-300">
-      Licensed Home Daycare
-    </p>
+  Licensed Home Daycare in Kensington, Saskatoon
+</p>
 
-    <p className="text-slate-300">
-      Saskatoon, Saskatchewan
-    </p>
+<p className="text-slate-300">
+  Saskatchewan, Canada
+</p>
 
     <p className="mt-4 text-sm text-slate-400">
       © 2026 3H Blossom Home Daycare. All Rights Reserved.
